@@ -15,4 +15,18 @@ Also thanks to MorrolanTV,MixedNuts, CarpetMerchant, XR and others from the morr
 
 
 
+## Usage Example:
+
+```
+
+gs=600
+gsMultiplier(gs)*82*(1.2)*(1+levelscaling(60)+dmgstatScaling([5,35,5,5], [0,0.9,0.65,0]))*armorScaling(44,gs)
+```
+
+for a gs 600 musket with 35 dex and 5 int in light armor against a pve target with 44 armor.
+
+Combat dummies in forts have 44 armor.
+
+Note that the armor scaling function is currently outdated for use against players.
+
 
